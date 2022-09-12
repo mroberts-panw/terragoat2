@@ -30,13 +30,13 @@ resource azurerm_linux_virtual_machine "linux_machine" {
     terragoat   = true
     environment = var.environment
     }, {
-    git_commit           = "de3bb777f967989c2c3332faea16cb614c55ccc9"
+    git_commit           = "4b8a9ef12800b7b5922dffa619144dedf72d661d"
     git_file             = "terraform/azure/instance.tf"
-    git_last_modified_at = "2020-06-17 15:48:15"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-09-12 17:22:55"
+    git_last_modified_by = "mroberts@m-c02ff1nqml85.paloaltonetworks.local"
+    git_modifiers        = "mroberts"
+    git_org              = "mroberts-panw"
+    git_repo             = "terragoat2"
     yor_trace            = "736ef713-51b8-4178-ad69-406be81f6ef2"
   })
 }
@@ -65,13 +65,13 @@ resource azurerm_windows_virtual_machine "windows_machine" {
     terragoat   = true
     environment = var.environment
     }, {
-    git_commit           = "de3bb777f967989c2c3332faea16cb614c55ccc9"
+    git_commit           = "4b8a9ef12800b7b5922dffa619144dedf72d661d"
     git_file             = "terraform/azure/instance.tf"
-    git_last_modified_at = "2020-06-17 15:48:15"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-09-12 17:22:55"
+    git_last_modified_by = "mroberts@m-c02ff1nqml85.paloaltonetworks.local"
+    git_modifiers        = "mroberts"
+    git_org              = "mroberts-panw"
+    git_repo             = "terragoat2"
     yor_trace            = "41938587-bdfc-4234-b941-560f1ae7d6c0"
   })
 }

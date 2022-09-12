@@ -22,13 +22,13 @@ resource "google_compute_instance" "server" {
     serial-port-enable     = true
   }
   labels = {
-    git_commit           = "2bdc0871a5f4505be58244029cc6485d45d7bb8e"
+    git_commit           = "4b8a9ef12800b7b5922dffa619144dedf72d661d"
     git_file             = "terraform__gcp__instances_tf"
-    git_last_modified_at = "2022-01-19-17-02-27"
-    git_last_modified_by = "jameswoolfenden"
-    git_modifiers        = "jameswoolfenden__nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-09-12-17-22-55"
+    git_last_modified_by = "mroberts"
+    git_modifiers        = "mroberts"
+    git_org              = "mroberts-panw"
+    git_repo             = "terragoat2"
     yor_trace            = "cd562b76-fbce-4e60-8c75-c9f43d7ffc16"
   }
 }
@@ -36,13 +36,13 @@ resource "google_compute_instance" "server" {
 resource "google_compute_disk" "unencrypted_disk" {
   name = "terragoat-${var.environment}-disk"
   labels = {
-    git_commit           = "2bdc0871a5f4505be58244029cc6485d45d7bb8e"
+    git_commit           = "4b8a9ef12800b7b5922dffa619144dedf72d661d"
     git_file             = "terraform__gcp__instances_tf"
-    git_last_modified_at = "2022-01-19-17-02-27"
-    git_last_modified_by = "jameswoolfenden"
-    git_modifiers        = "jameswoolfenden__nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-09-12-17-22-55"
+    git_last_modified_by = "mroberts"
+    git_modifiers        = "mroberts"
+    git_org              = "mroberts-panw"
+    git_repo             = "terragoat2"
     yor_trace            = "bf87b7d7-a9d8-4f03-a0d4-8a4cbb647d03"
   }
 }
