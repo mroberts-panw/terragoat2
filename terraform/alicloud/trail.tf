@@ -11,13 +11,13 @@ resource "alicloud_actiontrail_trail" "fail" {
 resource "alicloud_oss_bucket" "trail" {
 
   tags = {
-    git_commit           = "c2ff052009d49c65e6af551eb1506abc73b5976c"
+    git_commit           = "4b8a9ef12800b7b5922dffa619144dedf72d661d"
     git_file             = "terraform/alicloud/trail.tf"
-    git_last_modified_at = "2022-04-05 15:14:28"
-    git_last_modified_by = "james.woolfenden@gmail.com"
-    git_modifiers        = "james.woolfenden"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-09-12 17:22:55"
+    git_last_modified_by = "mroberts@m-c02ff1nqml85.paloaltonetworks.local"
+    git_modifiers        = "mroberts"
+    git_org              = "mroberts-panw"
+    git_repo             = "terragoat2"
     yor_trace            = "9ce7077b-8195-4e71-aec6-ed1f769555dc"
   }
 }

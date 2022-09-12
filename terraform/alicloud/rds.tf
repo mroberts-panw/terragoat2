@@ -18,13 +18,13 @@ resource "alicloud_db_instance" "seeme" {
     value = "50"
   }
   tags = {
-    git_commit           = "c2ff052009d49c65e6af551eb1506abc73b5976c"
+    git_commit           = "4b8a9ef12800b7b5922dffa619144dedf72d661d"
     git_file             = "terraform/alicloud/rds.tf"
-    git_last_modified_at = "2022-04-05 15:14:28"
-    git_last_modified_by = "james.woolfenden@gmail.com"
-    git_modifiers        = "james.woolfenden"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-09-12 17:22:55"
+    git_last_modified_by = "mroberts@m-c02ff1nqml85.paloaltonetworks.local"
+    git_modifiers        = "mroberts"
+    git_org              = "mroberts-panw"
+    git_repo             = "terragoat2"
     yor_trace            = "7bd1394e-0a79-4288-8f83-5abcca5bf1ba"
   }
 }

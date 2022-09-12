@@ -5,13 +5,13 @@ resource aws_ecr_repository "repository" {
   tags = merge({
     Name = "${local.resource_prefix.value}-repository"
     }, {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "4b8a9ef12800b7b5922dffa619144dedf72d661d"
     git_file             = "terraform/aws/ecr.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-09-12 17:22:55"
+    git_last_modified_by = "mroberts@m-c02ff1nqml85.paloaltonetworks.local"
+    git_modifiers        = "mroberts"
+    git_org              = "mroberts-panw"
+    git_repo             = "terragoat2"
     yor_trace            = "7a3ec657-fa54-4aa2-8467-5d08d6c90bc2"
   })
 }

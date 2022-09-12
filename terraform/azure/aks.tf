@@ -23,13 +23,13 @@ resource azurerm_kubernetes_cluster "k8s_cluster" {
     enabled = false
   }
   tags = {
-    git_commit           = "898d5beaec7ffdef6df0d7abecff407362e2a74e"
+    git_commit           = "4b8a9ef12800b7b5922dffa619144dedf72d661d"
     git_file             = "terraform/azure/aks.tf"
-    git_last_modified_at = "2020-06-17 12:59:55"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-09-12 17:22:55"
+    git_last_modified_by = "mroberts@m-c02ff1nqml85.paloaltonetworks.local"
+    git_modifiers        = "mroberts"
+    git_org              = "mroberts-panw"
+    git_repo             = "terragoat2"
     yor_trace            = "6103d111-864e-42e5-899c-1864de281fd1"
   }
 }
