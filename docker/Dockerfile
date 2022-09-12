@@ -1,0 +1,2 @@
+FROM node:14
+EXPOSE 22 80 443
