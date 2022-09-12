@@ -21,7 +21,7 @@ jobs:
         id: checkov
         uses: bridgecrewio/checkov-action@master
         with:
-          file: './terraform/aws/s3.tf'
+          directory: '.'
           soft_fail: true
           api-key: ${{ secrets.BC_API_KEY }}
       - name: Expose report
